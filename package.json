@@ -9,8 +9,24 @@
     "scripts": {
         "build": "webpack-cli",
         "lint": "xo",
-        "test": "nyc --reporter=lcov ava"
+        "test": "nyc --reporter=lcov ava",
+        "semantic-release": "semantic-release"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CassandraSpruit/Array-Like-Map.git"
+    },
+    "keywords": [
+        "library",
+        "javascript",
+        "arrays"
+    ],
+    "author": "Cassandra Spruit",
+    "license": "GPL-3.0-or-later",
+    "bugs": {
+        "url": "https://github.com/CassandraSpruit/Array-Like-Map/issues"
+    },
+    "homepage": "https://github.com/CassandraSpruit/Array-Like-Map#readme",
     "devDependencies": {
         "@babel/core": "^7.7.7",
         "@babel/preset-env": "^7.7.7",
