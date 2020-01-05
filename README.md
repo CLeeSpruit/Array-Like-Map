@@ -2,7 +2,6 @@
 [![codecov](https://codecov.io/gh/CassandraSpruit/Array-Like-Maps/branch/master/graph/badge.svg)](https://codecov.io/gh/CassandraSpruit/Array-Like-Map)
 [![npm](https://img.shields.io/npm/v/@cspruit/array-like-map)](https://www.npmjs.com/package/@cspruit/array-like-maps)
 [![license](https://img.shields.io/github/license/CassandraSpruit/Array-Like-Map)](https://github.com/CassandraSpruit/Array-Like-Maps/blob/master/LICENSE)
-[![Greenkeeper badge](https://badges.greenkeeper.io/CassandraSpruit/Array-Like-Map.svg)](https://greenkeeper.io/)
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/xojs/xo)
 
 # Array-Like-Map
