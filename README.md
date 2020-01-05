@@ -1,7 +1,7 @@
 # Array-Like-Map
 _Have your Maps and eat it, too._
 
-Extends funcitonality of the map to be more like an array. 
+Extends functionality of the map to be more like an array.
 
 
 ## Installation
