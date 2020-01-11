@@ -34,7 +34,6 @@
         "@semantic-release/git": "^7.0.18",
         "ava": "^2.4.0",
         "babel-loader": "^8.0.6",
-        "browser-env": "^3.3.0",
         "codecov": "^3.6.1",
         "nyc": "^15.0.0",
         "semantic-release": "^16.0.0",
