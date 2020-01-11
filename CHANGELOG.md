@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.0.0...v1.0.1) (2020-01-11)
+
+
+### Bug Fixes
+
+* **pkg:** manually updating version ([49306fe](https://github.com/CassandraSpruit/Array-Like-Map/commit/49306feb7d62613a1bc63441c14d71c6658668ca))
+
 # 1.0.0 (2020-01-11)
 
 
