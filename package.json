@@ -2,14 +2,18 @@
     "name": "@cspruit/array-like-map",
     "version": "1.0.0",
     "description": "Extends functionality of the map to be more like an array",
+    "source": "./array-like-map.js",
     "main": "dist/array-like-map.js",
+    "module": "dist/array-like-map.mjs",
+    "unpkg": "dist/array-like-map.umd.js",
     "files": [
         "dist/**/*"
     ],
     "scripts": {
-        "build": "webpack-cli",
+        "build": "npm run flush && microbundle",
         "lint": "xo",
         "test": "nyc --reporter=lcov ava",
+        "flush": "rm -r ./dist || true",
         "semantic-release": "semantic-release"
     },
     "repository": {
@@ -33,12 +37,10 @@
         "@semantic-release/changelog": "^3.0.6",
         "@semantic-release/git": "^7.0.18",
         "ava": "^2.4.0",
-        "babel-loader": "^8.0.6",
         "codecov": "^3.6.1",
+        "microbundle": "^0.11.0",
         "nyc": "^15.0.0",
         "semantic-release": "^16.0.0",
-        "webpack": "^4.41.4",
-        "webpack-cli": "^3.3.10",
         "xo": "^0.25.3"
     },
     "xo": {
