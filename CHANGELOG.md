@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.0.1...v1.1.0) (2020-01-14)
+
+
+### Features
+
+* mapPop ([bd6f606](https://github.com/CassandraSpruit/Array-Like-Map/commit/bd6f6065159bb0e07ebcc6d65886993e374807cd))
+
 ## [1.0.1](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.0.0...v1.0.1) (2020-01-11)
 
 
