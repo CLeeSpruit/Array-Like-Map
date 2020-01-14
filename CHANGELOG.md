@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.1.0...v1.2.0) (2020-01-14)
+
+
+### Features
+
+* MapFind ([43d5ce2](https://github.com/CassandraSpruit/Array-Like-Map/commit/43d5ce2ed2695e37d6fe0f1efeb524ae23296cf3))
+
 # [1.1.0](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.0.1...v1.1.0) (2020-01-14)
 
 
