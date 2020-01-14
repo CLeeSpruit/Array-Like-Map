@@ -89,6 +89,23 @@ const removedDragon = mapPop(animals, 'dragon');
 // Should return {name: 'Smaug', isPet: false} and the map now only has 'dog'
 ```
 
+### MapFind
+- Searches and returns the first value that is true for the condition
+
+#### Example
+```javascript
+import {mapFind} from '@cspruit/array-like-map';
+
+const animals = new Map();
+const dog = {name: 'Spot', isPet: true};
+const dragon = {name: 'Smaug', isPet: false};
+animals.set('dog', dog);
+animals.set('dragon', dragon);
+
+const foundDog = mapFind(animals, (pet) => pet.name === 'Spot');
+// Should return {name: 'Spot', isPet: true}
+```
+
 ## Contributing
 All contributions, suggestions, and issues are welcome!
 

@@ -3,7 +3,7 @@
  *
  * @export
  * @param {Map} map
- * @param {Function} filterFn
+ * @param {(value) => boolean} filterFn
  * @returns {Map} - Sub-map of all values that return true in filterFn
  */
 export function mapFilter(map, filterFn) {
@@ -50,4 +50,22 @@ export function mapPop(map, key) {
 	const value = map.get(key);
 	map.delete(key);
 	return value;
+}
+
+/**
+ * Searches and returns the first value that is true for the condition
+ *
+ * @export
+ * @param {Map} map
+ * @param {(value) => boolean} conditionFn
+ */
+export function mapFind(map, conditionFn) {
+	let found = null;
+	map.forEach(value => {
+		if (!found && conditionFn(value)) {
+			found = value;
+		}
+	});
+
+	return found;
 }
