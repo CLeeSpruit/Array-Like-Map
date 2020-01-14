@@ -1,5 +1,5 @@
 /**
- *Returns a sub-map of map filtered by filter function provided
+ * Returns a sub-map of map filtered by filter function provided
  *
  * @export
  * @param {Map} map
@@ -19,7 +19,7 @@ export function mapFilter(map, filterFn) {
 }
 
 /**
- *Converts a map's values into an array.
+ * Converts a map's values into an array.
  *
  * @export
  * @param {Map} map
@@ -29,11 +29,25 @@ export function mapToArray(map) {
 }
 
 /**
- *Converts a map's keys into an array.
+ * Converts a map's keys into an array.
  *
  * @export
  * @param {Map} map
  */
 export function mapKeysToArray(map) {
 	return [...map.keys()];
+}
+
+/**
+ * Removes and _returns_ the value removed from map.
+ *
+ * @export
+ * @param {Map} map
+ * @param {*} key
+ * @returns
+ */
+export function mapPop(map, key) {
+	const value = map.get(key);
+	map.delete(key);
+	return value;
 }

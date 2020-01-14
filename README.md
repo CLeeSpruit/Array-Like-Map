@@ -71,6 +71,24 @@ const pets = mapToArray(animals);
 // Should return ['dog', 'dragon']
 ```
 
+### MapPop
+- Removes and returns a value from a map
+- Works similar to Map.delete, but returns the value removed instead of a boolean
+
+#### Example
+```javascript
+import {mapPop} from '@cspruit/array-like-map';
+
+const animals = new Map();
+const dog = {name: 'Spot', isPet: true};
+const dragon = {name: 'Smaug', isPet: false};
+animals.set('dog', dog);
+animals.set('dragon', dragon);
+
+const removedDragon = mapPop(animals, 'dragon');
+// Should return {name: 'Smaug', isPet: false} and the map now only has 'dog'
+```
+
 ## Contributing
 All contributions, suggestions, and issues are welcome!
 
