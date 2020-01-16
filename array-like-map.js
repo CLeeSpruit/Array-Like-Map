@@ -23,6 +23,7 @@ export function mapFilter(map, filterFn) {
  *
  * @export
  * @param {Map} map
+ * @returns {Array} - Resulting array from values
  */
 export function mapToArray(map) {
 	return [...map.values()];
@@ -33,6 +34,7 @@ export function mapToArray(map) {
  *
  * @export
  * @param {Map} map
+ * @returns {Array} - Resulting array from keys
  */
 export function mapKeysToArray(map) {
 	return [...map.keys()];
@@ -44,7 +46,7 @@ export function mapKeysToArray(map) {
  * @export
  * @param {Map} map
  * @param {*} key
- * @returns
+ * @returns {*} - value removed, if found
  */
 export function mapPop(map, key) {
 	const value = map.get(key);
