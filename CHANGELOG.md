@@ -1,3 +1,10 @@
+## [1.2.1](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.2.0...v1.2.1) (2020-01-16)
+
+
+### Bug Fixes
+
+* babel updates ([98b68b1](https://github.com/CassandraSpruit/Array-Like-Map/commit/98b68b1104c53d7d83c445be3c3b4aad9717d31a))
+
 # [1.2.0](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.1.0...v1.2.0) (2020-01-14)
 
 
