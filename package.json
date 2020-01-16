@@ -1,6 +1,6 @@
 {
     "name": "@cspruit/array-like-map",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Extends functionality of the map to be more like an array",
     "source": "./array-like-map.js",
     "main": "dist/array-like-map.js",
