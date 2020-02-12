@@ -26,7 +26,7 @@ export function mapFilter(map, filterFn) {
  * @returns {Array} - Resulting array from values
  */
 export function mapToArray(map) {
-	return [...map.values()];
+	return Array.from(map.values());
 }
 
 /**
@@ -37,7 +37,7 @@ export function mapToArray(map) {
  * @returns {Array} - Resulting array from keys
  */
 export function mapKeysToArray(map) {
-	return [...map.keys()];
+	return Array.from(map.keys());
 }
 
 /**
