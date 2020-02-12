@@ -1,3 +1,10 @@
+## [1.2.3](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.2.2...v1.2.3) (2020-02-12)
+
+
+### Bug Fixes
+
+* fixed mapToArray fns to result in an actual array ([ccb9e86](https://github.com/CassandraSpruit/Array-Like-Map/commit/ccb9e860f611b99eb57a6f9303a835946dd3ae15))
+
 ## [1.2.2](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.2.1...v1.2.2) (2020-01-29)
 
 ## [1.2.1](https://github.com/CassandraSpruit/Array-Like-Map/compare/v1.2.0...v1.2.1) (2020-01-16)
